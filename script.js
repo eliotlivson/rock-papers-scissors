@@ -6,13 +6,13 @@ function rock() {
     
     switch(enemy) {
         case 1: 
-            document.getElementById("result").src = "images/tie1.gif";    
+            document.getElementById("result").src = "tie1.gif";    
             break
         case 2:
-            document.getElementById("result").src = "images/paper.png";
+            document.getElementById("result").src = "paper.png";
             break
         case 3:
-            document.getElementById("result").src = "images/rock.png";    
+            document.getElementById("result").src = "rock.png";    
     }
 }
 
@@ -24,13 +24,13 @@ function paper() {
     
     switch(enemy) {
         case 1: 
-            document.getElementById("result").src = "images/paper.png";    
+            document.getElementById("result").src = "paper.png";    
             break
         case 2:
-            document.getElementById("result").src = "images/tie2.gif";
+            document.getElementById("result").src = "tie2.gif";
             break
         case 3:
-            document.getElementById("result").src = "images/scissor.png";    
+            document.getElementById("result").src = "scissor.png";    
     }
 }
 
@@ -42,13 +42,13 @@ function scissor() {
     
     switch(enemy) {
         case 1: 
-            document.getElementById("result").src = "images/rock.png";    
+            document.getElementById("result").src = "rock.png";    
             break
         case 2:
-            document.getElementById("result").src = "images/scissor.png";
+            document.getElementById("result").src = "scissor.png";
             break
         case 3:
-            document.getElementById("result").src = "images/tie3.gif";    
+            document.getElementById("result").src = "tie3.gif";    
     }
 }
 
